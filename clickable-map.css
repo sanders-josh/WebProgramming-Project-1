@@ -1,0 +1,27 @@
+.clickable{
+	width: 925px;
+	height: 400px;
+	background: url("hikingmapnopins.jpg");
+	border: 2px solid black;
+	text-align: center;
+}
+
+td
+{
+	width: 46px;
+	height: 35px;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 8px 5px 8px;
+  height: 82px;
+  width: 22px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
