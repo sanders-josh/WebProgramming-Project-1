@@ -1,0 +1,21 @@
+.f1 {
+	float: right;
+	margin: 15px;
+	margin-right: 10px;
+	height: 300px;
+	border-radius: 25px;
+}
+
+.c1 {
+	clear: both;
+}
+.box1 {
+	width: 85%;
+	text-align: left;
+}
+.i1 {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
