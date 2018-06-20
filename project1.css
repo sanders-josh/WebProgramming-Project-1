@@ -23,6 +23,7 @@
 }
 
 .clickable{
+	float: left;
 	width: 925px;
 	height: 400px;
 	background: url("hikingmapnopins.jpg");
@@ -38,6 +39,7 @@ td
 
 .button {
   background-color: darkgreen;
+  color: white;
   text-decoration: none;
   text-align: center;
   padding: 5px 8px 5px 8px;
@@ -56,7 +58,14 @@ td
 
 .button:hover {
 	background-color: lightgreen;
-	+ .description {
-		display: block;
-	}
+}
+
+ol {
+	float: left;
+}
+
+ol > p{
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
 }
