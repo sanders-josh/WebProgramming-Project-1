@@ -37,15 +37,26 @@ td
 }
 
 .button {
-  background-color: blue;
-  color: white;
+  background-color: darkgreen;
   text-decoration: none;
   text-align: center;
   padding: 5px 8px 5px 8px;
   height: 82px;
   width: 22px;
+  border-radius: 8px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+}
+
+.description{
+	display: none;
+}
+
+.button:hover {
+	background-color: lightgreen;
+	+ .description {
+		display: block;
+	}
 }
